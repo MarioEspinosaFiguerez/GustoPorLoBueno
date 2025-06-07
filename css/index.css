@@ -1,0 +1,65 @@
+ .content-wrapper {
+  display: flex;
+  flex-wrap: wrap;      /* Para que en pantallas pequeñas se adapte */
+  gap: 2rem;            /* Espacio entre columnas */
+  padding: 2rem;
+  margin: 0 auto;
+  color: white;
+
+  background-image: url(../images/background-index.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+}
+
+.about_us {
+  max-width: 700px;      /* Limita ancho para mejor lectura */
+  margin: 2rem auto;     /* Centra sección horizontalmente con margen arriba y abajo */
+  text-align: center;    /* Centra el texto y demás elementos */
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.about_infrastructure_wrapper {
+  display: flex;
+  align-items: center;       /* Centra verticalmente texto e imagen */
+  gap: 2rem;                 /* Espacio entre texto e imagen */
+  max-width: 1200px;
+  margin: 2rem auto;         /* Centra el contenedor horizontalmente con margen arriba y abajo */
+  padding: 0 1rem;
+}
+
+.about_infrastructure {
+  flex: 1;                   /* Ocupa espacio disponible */
+  font-size: 1.2rem;
+  line-height: 1.5;
+  padding-left: 40px;        
+}
+
+.about_infrastructure_wrapper aside {
+  flex: 1;                   /* Ocupa espacio disponible */
+  display: flex;
+  justify-content: center;   /* Centra imagen horizontalmente dentro del aside */
+}
+
+.about_infrastructure_wrapper aside img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+aside {
+  flex: 1 1 40%;        /* El resto del espacio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+aside img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
