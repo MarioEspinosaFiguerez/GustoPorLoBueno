@@ -63,3 +63,40 @@ aside img {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 767px) {
+  /* Ajustar el contenido principal */
+  .content-wrapper {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  /* El texto y la imagen deben ocupar toda la anchura */
+  .about_infrastructure_wrapper {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .about_infrastructure {
+    padding-left: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  aside {
+    flex: none;
+    width: 100%;
+  }
+
+  aside img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Footer centrado y con mejor padding */
+  footer {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+}

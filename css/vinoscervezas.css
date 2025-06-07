@@ -15,3 +15,16 @@
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
+
+/* Responsivo para móvil */
+@media (max-width: 600px) {
+  .images-container {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 0.5rem;
+  }
+  .images-container img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
