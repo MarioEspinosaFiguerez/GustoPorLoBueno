@@ -1,0 +1,17 @@
+.images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px; /* opcional, para controlar ancho */
+  margin: 2rem auto;
+  padding: 0 1rem;
+  gap: 5rem; /* espacio entre imágenes */
+
+}
+
+.images-container img {
+  max-width: 50%; /* para que no se salgan del contenedor */
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
