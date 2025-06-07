@@ -2,7 +2,7 @@
   document.querySelectorAll('.menu li a').forEach(link => {
     const linkPath = link.pathname;
 
-    if (currentPath === '/index.html' || currentPath === linkPath) {
+    if (currentPath === '/' || currentPath === '/index.html' || currentPath === linkPath) {
         link.classList.add('active');
     }
   });
