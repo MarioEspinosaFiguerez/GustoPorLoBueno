@@ -1,4 +1,4 @@
-  if (window.location.pathname == '/' || window.location.pathname.endsWith('GustoPorLoBueno')) { window.location.replace(window.location.origin + window.location.pathname + 'index.html')}
+  if (window.location.pathname == '/' || window.location.pathname.endsWith('/')) { window.location.replace(window.location.origin + window.location.pathname + 'index.html')}
   
   
   const currentPath = window.location.pathname.split('/').filter(seg => seg).pop() || 'index.html';
