@@ -68,7 +68,7 @@
   }
 
   .menu li a.active {
-  color: #ff9900;
+  color: #fffb00;
   border-bottom: 3px solid #00aced;
   font-weight: bold;
 }
@@ -122,15 +122,5 @@ footer .telefono {
 
   .menu li {
     text-align: center;
-  }
-
-    footer .telefono {
-    font-family: monospace;
-    font-weight: bold;
-    display: inline-flex;
-    gap: 3px;
-    letter-spacing: 0;
-    justify-content: center;
-    flex-wrap: wrap;
   }
 }
